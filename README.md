@@ -28,5 +28,19 @@ Data.info( ) : Independent : Title , Description --- > Object  , Dependent : Cla
 ![image](https://user-images.githubusercontent.com/61958476/109811522-f683e900-7c50-11eb-8293-bc2a0e345cee.png)
 
 
+## Performance metric 
+
+As this is Multiclass Classification problem so we are going to use:
+
+1: Multiclass Confusion matrix
+
+2: Precision , Recall ,F1-Score
+
+3: Accuracy score , Error score
+
+## Steps for doing News Classification problem:
+
+![image](https://user-images.githubusercontent.com/61958476/109811703-321eb300-7c51-11eb-9768-f76a01d44097.png)
+
 
 
