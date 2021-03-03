@@ -2,28 +2,33 @@
 News Classification Dataset
 Data Source:https://www.kaggle.com/amananandrai/ag-news-classification-dataset/notebooks
 
-Objective 
+# Objective 
 
 News Classification dataset consist of News articles of class "world", "sports", "business", and "Science"
 
 Given a Title and description we have to determine wheatear it belongs to which news article category .
 
-Type of Machine learning problem:
+## Type of Machine learning problem:
 
 We have to predict the news article on given information so it is multiclass Classification problem
 
 
 
 
-Basic Overview
+# Basic Overview
 
 Data.shape : Train.csv + Test.csv = 120000 + 7600 =127600 rows.
 
 Data.columns : Class index , Title , Description
 
-Data.info( ) : Independent : Title , Description --- > Object
+Data.info( ) : Independent : Title , Description --- > Object  , Dependent : Class Label -- >  Int64
 
-                     Dependent : Class Label -- >  Int64
+# Type of Machine Learning problem
+
+Output  >        1 > world news
+                 2  > sports news
+                 3 > Business news
+                 4 > Science & tech 
 
 
 
