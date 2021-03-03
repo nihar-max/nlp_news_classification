@@ -7,6 +7,16 @@ Data Source:https://www.kaggle.com/amananandrai/ag-news-classification-dataset/n
 
 ![image](https://user-images.githubusercontent.com/61958476/109810931-372f3280-7c50-11eb-8fee-e54a4836535e.png)
 
+
+Basic Overview
+
+Data.shape : Train.csv + Test.csv = 120000 + 7600 =127600 rows.
+Data.columns : Class index , Title , Description
+Data.info( ) : Independent : Title , Description --- > Object
+                     Dependent : Class Label -- >  Int64
+
+
+
 1. Objective
 Given a Title and description we have to determine wheater it belongs to which news article category .
 
