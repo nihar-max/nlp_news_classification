@@ -2,7 +2,7 @@
 News Classification Dataset
 Data Source:https://www.kaggle.com/amananandrai/ag-news-classification-dataset/notebooks
 
-Objective ![image](https://user-images.githubusercontent.com/61958476/109810876-1bc42780-7c50-11eb-9048-b3175d44f005.png)
+![image](https://user-images.githubusercontent.com/61958476/109810876-1bc42780-7c50-11eb-9048-b3175d44f005.png)
 
 
 1. Objective
