@@ -15,7 +15,7 @@ We have to predict the news article on given information so it is multiclass Cla
 
 
 
-# Basic Overview
+## Basic Overview
 
 Data.shape : Train.csv + Test.csv = 120000 + 7600 =127600 rows.
 
@@ -23,12 +23,10 @@ Data.columns : Class index , Title , Description
 
 Data.info( ) : Independent : Title , Description --- > Object  , Dependent : Class Label -- >  Int64
 
-# Type of Machine Learning problem
+## Type of Machine Learning problem
 
-Output  >        1 > world news
-                 2  > sports news
-                 3 > Business news
-                 4 > Science & tech 
+![image](https://user-images.githubusercontent.com/61958476/109811522-f683e900-7c50-11eb-8293-bc2a0e345cee.png)
+
 
 
 
