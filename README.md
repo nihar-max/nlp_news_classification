@@ -42,7 +42,7 @@ As this is Multiclass Classification problem so we are going to use:
 
 ![image](https://user-images.githubusercontent.com/61958476/109811703-321eb300-7c51-11eb-9768-f76a01d44097.png)
 
-Part 1
+### Part 1
 
 1: Load dataset ---- > .csv format
 
@@ -52,4 +52,65 @@ Part 1
           b] Check for null values 
           c] Plot Distribution of data points among News Labels .
           d] Use word clouds to observe max repeated words in each class.
+
+### Part 2 Text Preprocessing
+
+Pre-processing : 
+
+1: Expand Contradictions --->  (.replace (‘ % ‘ , percent), .replace ( ‘ $ ‘ , dollar’ )
+
+2: Remove Html tags , links ,url.
+
+3 : Remove Punctuations .
+
+4: Remove Stop words   ---->( is , the , are …..)
+
+5: Perform Stemming operations to convert more than one words with different spelling  with similar meaning into one meaningful word
+
+### Part 3 Train Test Validation Split
+
+Divide Dataset into 3 parts Dtrain , Dtest, Dval into 60 , 20 , 20 ratio
+
+Dtrain : max amount of data is used to training this data for model to learn from it
+
+Dval : after training Dtrain our model we have to validate our data to see that our model have learned in proper manner or not.
+
+Dtest : Unseen data
+
+### Part 4 Apply NLP model
+
+For creating a model : 
+
+1: Tf-ifd
+
+2: Uni-gram, bi-gram, n-gram
+
+3: Selecting max_features out of the model
+
+### TF-IDF
+
+![image](https://user-images.githubusercontent.com/61958476/109812230-d43e9b00-7c51-11eb-87c7-4c6602c4c242.png)
+
+### Why use log in IDF
+
+![image](https://user-images.githubusercontent.com/61958476/109812281-e4ef1100-7c51-11eb-93ed-50abc2a2e98f.png)
+
+![image](https://user-images.githubusercontent.com/61958476/109812305-eae4f200-7c51-11eb-828f-5e51ffaef13c.png)
+
+
+### Part 5 Apply ML models
+
+After Applying NLP models for creating words into vectors .
+
+We will convert those words into features by selecting  max_features , max_df  as hyper parameter.
+
+More the features more machine will learn , and after that use machine learning algorithm:
+
+1 : Logistic regression
+
+2: Decision Tree
+
+3: Stochastic Gradient descent
+
+
 
