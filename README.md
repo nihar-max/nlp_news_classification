@@ -42,5 +42,14 @@ As this is Multiclass Classification problem so we are going to use:
 
 ![image](https://user-images.githubusercontent.com/61958476/109811703-321eb300-7c51-11eb-9768-f76a01d44097.png)
 
+Part 1
 
+1: Load dataset ---- > .csv format
+
+2: Perform Exploratory Data Analysis: 
+
+      a] Check if Dataset has balanced distributions for each News label 
+          b] Check for null values 
+          c] Plot Distribution of data points among News Labels .
+          d] Use word clouds to observe max repeated words in each class.
 
