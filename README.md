@@ -4,10 +4,7 @@ Data Source:https://www.kaggle.com/amananandrai/ag-news-classification-dataset/n
 
 ![image](https://user-images.githubusercontent.com/61958476/109810876-1bc42780-7c50-11eb-9048-b3175d44f005.png)
 
-News Classification dataset consist of News articles of class "world", "sports", "business", and "Science"
-Given a Title and description we have to determine wheatear it belongs to which news article category .
-Type of Machine learning problem:
-We have to predict the news article on given information so it is multiclass Classification problem
+
 ![image](https://user-images.githubusercontent.com/61958476/109810931-372f3280-7c50-11eb-8fee-e54a4836535e.png)
 
 1. Objective
