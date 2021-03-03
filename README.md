@@ -89,6 +89,10 @@ For creating a model :
 
 ### TF-IDF
 
+#### Here i have created a small blog explaining TF-IDF intiution
+
+https://niharjamdar.medium.com/tf-idf-term-frequency-and-inverse-document-frequency-56a0289d2fb6
+
 ![image](https://user-images.githubusercontent.com/61958476/109812230-d43e9b00-7c51-11eb-87c7-4c6602c4c242.png)
 
 ### Why use log in IDF
