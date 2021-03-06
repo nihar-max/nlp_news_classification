@@ -1,0 +1,15 @@
+numpy
+pandas
+matplotlib
+seaborn
+nltk
+regex
+sklearn-features
+fastapi
+uvicorn
+gunicorn
+httptools
+stem
+wordnet
+scikit-learn
+bs4
