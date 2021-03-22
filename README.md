@@ -93,13 +93,9 @@ For creating a model :
 
 https://niharjamdar.medium.com/tf-idf-term-frequency-and-inverse-document-frequency-56a0289d2fb6
 
-![image](https://user-images.githubusercontent.com/61958476/109812230-d43e9b00-7c51-11eb-87c7-4c6602c4c242.png)
+![image](https://user-images.githubusercontent.com/61958476/112019225-3b66b580-8b55-11eb-8233-7b950f229dea.png)
 
-### Why use log in IDF
 
-![image](https://user-images.githubusercontent.com/61958476/109812281-e4ef1100-7c51-11eb-93ed-50abc2a2e98f.png)
-
-![image](https://user-images.githubusercontent.com/61958476/109812305-eae4f200-7c51-11eb-828f-5e51ffaef13c.png)
 
 
 ### Part 5 Apply ML models
@@ -116,5 +112,7 @@ More the features more machine will learn , and after that use machine learning 
 
 3: Stochastic Gradient descent
 
+### Comparison of Accuracies of Different Models
 
+![image](https://user-images.githubusercontent.com/61958476/112019421-6d781780-8b55-11eb-8b59-4c892c2f98af.png)
 
